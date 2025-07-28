@@ -1,0 +1,72 @@
+/* Reset + base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #e6eef7;
+}
+
+/* FLEX CONTAINER TO CENTER THE BOX */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;       /* full screen height */
+  width: 100vw;        /* full screen width */
+  padding: 20px;       /* some margin on mobile */
+  background-color: #e6eef7;
+}
+
+/* LOGIN BOX STYLING */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Header */
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #2a5d9f;
+}
+
+/* Input fields */
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #2a2a2a;
+  color: white;
+}
+
+/* Button */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2a5d9f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Error message */
+.login-container .message {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+}

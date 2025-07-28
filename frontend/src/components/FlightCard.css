@@ -1,0 +1,43 @@
+.flight-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.flight-card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.flight-card h3 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.flight-card p {
+  margin: 6px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.flight-card button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.flight-card button:hover {
+  background-color: #0056b3;
+}

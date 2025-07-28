@@ -1,0 +1,42 @@
+/* src/components/SeatSelection.css */
+
+.seat-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 60px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.seat {
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+  line-height: 55px;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: green;
+}
+
+.seat.booked {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.message {
+  margin-top: 10px;
+  color: #333;
+}

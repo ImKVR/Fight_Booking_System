@@ -1,0 +1,17 @@
+# Global ignores (Node + macOS)
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+
+# Frontend (Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.DS_Store
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/.DS_Store
